@@ -1,0 +1,99 @@
+.menu-wrapper {
+  padding: 12px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.menu-wrapper *,
+.menu-wrapper *::after,
+.menu-wrapper *::before {
+  transition: all 0.4s;
+}
+.menu-wrapper .menu-container {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.menu-wrapper .menu-container .open-menu-button {
+  cursor: pointer;
+  align-self: center;
+}
+.menu-wrapper .menu-container .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0px;
+}
+.menu-wrapper .menu-container .logo h2 {
+  font-size: 0px;
+}
+.menu-wrapper .menu-container .items {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.menu-wrapper .menu-container .items .item {
+  position: relative;
+  cursor: pointer;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  border-radius: 18px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.menu-wrapper .menu-container .items .item h4 {
+  font-size: 0px;
+}
+.menu-wrapper .menu-container .items .item::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  left: 0;
+}
+.menu-wrapper .menu-container .items .item:hover,
+.menu-wrapper .menu-container .items .active {
+  background: rgba(86, 99, 76, 0.3294117647);
+}
+.menu-wrapper .menu-container .items .item:hover::before,
+.menu-wrapper .menu-container .items .active::before {
+  background: rgb(196, 195, 162);
+}
+.menu-wrapper .open .open-menu-button {
+  align-self: flex-end;
+}
+.menu-wrapper .open .logo {
+  gap: 8px;
+}
+.menu-wrapper .open .logo h2 {
+  font-size: 24px;
+}
+.menu-wrapper .open .items .item {
+  padding: 8px 36px;
+  gap: 8px;
+}
+.menu-wrapper .open .items .item h4 {
+  font-size: 18px;
+}
+
+.leaflet-test {
+  width: 100%;
+  height: calc(100vh - 24px);
+  display: grid;
+}/*# sourceMappingURL=Menu.css.map */
