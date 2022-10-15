@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/CodersLabProject/static/css/main.be71f466.css",
+    "main.js": "/CodersLabProject/static/js/main.9f16ea3b.js",
+    "static/media/b1.jpg": "/CodersLabProject/static/media/b1.99d9354faf09d9fa912f.jpg",
+    "static/media/image-amyrobson.webp": "/CodersLabProject/static/media/image-amyrobson.974bbf3c9ffb709f30a0.webp",
+    "static/media/image-juliusomo.webp": "/CodersLabProject/static/media/image-juliusomo.595ca29b9049f4c6ce66.webp",
+    "static/media/image-maxblagun.webp": "/CodersLabProject/static/media/image-maxblagun.e423f15841d76f3a5361.webp",
+    "static/media/image-ramsesmiron.webp": "/CodersLabProject/static/media/image-ramsesmiron.62a67681169b8dcdc378.webp",
+    "index.html": "/CodersLabProject/index.html",
+    "main.be71f466.css.map": "/CodersLabProject/static/css/main.be71f466.css.map",
+    "main.9f16ea3b.js.map": "/CodersLabProject/static/js/main.9f16ea3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be71f466.css",
+    "static/js/main.9f16ea3b.js"
+  ]
+}
