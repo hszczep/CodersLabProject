@@ -1,6 +1,6 @@
 import "./scss/Menu.css";
 import { MenuItems } from "./Data/MenuItems";
-import AgricultureIcon from "@mui/icons-material/Agriculture";
+import PhonelinkIcon from '@mui/icons-material/Phonelink';
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -21,14 +21,14 @@ function Menu() {
           <MenuIcon fontSize="large" />
         </div>
         <div className="logo">
-          <AgricultureIcon />
-          <h2>Mzuri</h2>
+          <PhonelinkIcon />
+          <h2>CodersLab</h2>
         </div>
-        <div className="items">
+        <nav className="items">
           {MenuItems &&
             MenuItems.length > 0 &&
             MenuItems.map((item, index) => (
-              <div
+              <button
                 key={index}
                 onClick={() => navigate(item.location)}
                 className={
@@ -37,9 +37,9 @@ function Menu() {
               >
                 {item.icon}
                 <h4>{item.name}</h4>
-              </div>
+              </button>
             ))}
-        </div>
+        </nav>
       </div>
     </div>
   );

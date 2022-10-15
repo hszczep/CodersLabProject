@@ -1,0 +1,38 @@
+.dashboard-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    gap: 36px;
+}
+
+.dashboard-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashbord-row1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+
+    .dashbord-hello{
+        display: flex;
+        flex: 1;
+    }
+
+    .dashbord-calendar{
+        display: flex;
+        flex: 1;
+    }
+}
+
+.dashbord-events{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    max-width: max-content;
+}

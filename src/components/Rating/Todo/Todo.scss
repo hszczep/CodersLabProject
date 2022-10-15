@@ -1,0 +1,14 @@
+.Rating-todo-component{
+    background-color: lightblue;
+    border-radius: 36px;
+    padding: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    table{
+        text-align: center;
+        width: 100%;
+    }
+}

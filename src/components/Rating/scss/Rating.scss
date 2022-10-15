@@ -1,0 +1,15 @@
+.body-Rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .row1 {
+        gap: 26px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    } 
+}
